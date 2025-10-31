@@ -67,12 +67,6 @@ You’ll see your **React To-Do List App** running locally 🎉
 
 ---
 
-## 📸 Preview
-
-![App Screenshot](https://via.placeholder.com/800x400?text=React+ToDo+List+Preview)
-
----
-
 ## 🧩 Future Improvements
 
 - ✅ Edit existing tasks  
