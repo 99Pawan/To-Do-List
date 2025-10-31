@@ -1,18 +1,86 @@
-# React + Vite
+📝 To-Do List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and elegant React To-Do List where you can add, delete, and rearrange tasks.
+Built using React Hooks (useState) and styled with CSS for a modern, minimal look.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Add new tasks using the Add button or just press Enter
+✅ Delete tasks with a single click
+✅ Move tasks up or down in the list
+✅ Beautiful UI with responsive, interactive buttons
+✅ Smooth user experience with clean layout and color scheme
 
-## React Compiler
+🧠 Concepts Used
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+React Components
 
-Note: This will impact Vite dev & build performances.
+React Hooks (useState)
 
-## Expanding the ESLint configuration
+Arrow functions & event handling
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Array operations (map, spread operator, swapping)
+
+Immutability in React State
+
+📂 Project Structure
+ToDoList/
+│
+├── src/
+│   ├── ToDoList.js      # Main React component
+│   ├── index.js         # Entry point
+│   └── App.css          # Custom styling
+│
+├── package.json
+└── README.md
+
+💻 How to Run
+
+Clone this repository:
+
+git clone https://github.com/yourusername/todolist-react.git
+
+
+Navigate to the project folder:
+
+cd todolist-react
+
+
+Install dependencies:
+
+npm install
+
+
+Run the development server:
+
+npm start
+
+
+Open your browser and visit:
+
+http://localhost:3000
+
+🎨 Preview
+
+A clean, card-style interface with color-coded buttons:
+
+🟢 Add Task
+
+🔴 Delete Task
+
+🟡 Move Up / Down
+
+⚡ Future Enhancements
+
+Add task completion (✔️ done)
+
+Store tasks in local storage
+
+Add edit functionality
+
+Add animations for adding/removing tasks
+
+👨‍💻 Author
+
+Pawan Sharma
+Built with ❤️ using React.js
