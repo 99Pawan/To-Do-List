@@ -30,7 +30,7 @@ Follow these steps to clone and run the project locally:
 
 ### 1️⃣ Clone the Repository
 ```
-git clone https://github.com/your-username/ToDoList.git
+git clone https://github.com/99Pawan/To-Do-List.git
 cd ToDoList
 ```
 
@@ -43,13 +43,13 @@ npm install
 
 ### 3️⃣ Start the Development Server
 ```
-npm start
+npm run dev
 ```
 
 ### 4️⃣ Open in Browser
 Once the server starts, visit:
 ```
-http://localhost:3000
+http://localhost:5173
 ```
 
 You’ll see your **React To-Do List App** running locally 🎉
