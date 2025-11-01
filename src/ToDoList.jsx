@@ -10,7 +10,8 @@ function ToDoList(){
     }
 
     function addTask(){
-        setTask([...task, newTask]);
+        if(newTask.trim() === "")return;
+        setTask(t => [...t, newTask]);
         setNewTask("");
     }
 
@@ -82,7 +83,6 @@ function ToDoList(){
 
     </div>
     );
-
 }   
 
 export default ToDoList;
